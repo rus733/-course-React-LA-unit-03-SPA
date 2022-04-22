@@ -12,19 +12,7 @@ function Category(props) {
     <>
       <h1>Category</h1>
       <Link to="/">Назад</Link>
-
-      <ul>
-        {categoryItems}
-        {/* <li>
-          <NavLink to={`${url.pathname}/notebook`}>Ноутбуки</NavLink>
-        </li>
-        <li>
-          <NavLink to={`${url.pathname}/monitor`}>Мониторы</NavLink>
-        </li>
-        <li>
-          <NavLink to={`${url.pathname}/cellphone`}>Мобильные телефоны</NavLink>
-        </li> */}
-      </ul>
+      <ul>{categoryItems}</ul>
     </>
   );
 }

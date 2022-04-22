@@ -9,18 +9,7 @@ function Header(props) {
   return (
     <>
       <nav>
-        <ul>
-          {navItems}
-          {/* <li>
-            <NavLink to="/">Home</NavLink>
-          </li>
-          <li>
-            <NavLink to="/about">About</NavLink>
-          </li>
-          <li>
-            <NavLink to="/cat">Category</NavLink>
-          </li> */}
-        </ul>
+        <ul>{navItems}</ul>
       </nav>
     </>
   );
