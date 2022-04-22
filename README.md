@@ -1,4 +1,4 @@
-# Create app types SPA 
+# Create training app types SPA 
 
 ## Getting Started with Create React App
 
